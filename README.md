@@ -41,6 +41,17 @@ py -m unittest -v
 - `OK` quer dizer que todos os testes passaram. ✅
 - `FAILED` ou `ERROR` quer dizer que ainda falta alguma coisa no código. Leia a mensagem: ela diz qual teste falhou e em qual linha.
 
+## 4️⃣ Fazer alteração incluindo seu nome e subir commit
+
+No VS Code, abra o arquivo na pasta src `main.py` e inclua seu nome em `print("Desenvolvido por: Seu Nome Aqui")`. 
+
+```powershell
+git add .
+git status
+git commit -m "primeiro commit"
+git push
+```
+
 # AULA 2: CONSTRUINDO CLASSES PRODUTO E CATEGORIA
 
 ## 4️⃣ Atualizar, assim que for orientado:
