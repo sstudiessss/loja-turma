@@ -54,16 +54,19 @@ git push
 
 # AULA 2: CONSTRUINDO CLASSES PRODUTO E CATEGORIA
 
-## 4️⃣ Atualizar, assim que for orientado:
+## 1️⃣ Atualizar, assim que for orientado:
 
 1. Abra o **seu** fork (`github.com/SEU-USUARIO/loja-turma`) e clique em **Sync fork → Update branch**. Isso traz os testes novos que a professora irá inserir.
 2. No terminal, dentro da pasta do projeto:
    ```powershell
    git pull
    ```
-Vamos criar juntos as classes
+Vamos criar juntos as classes PRODUTO E CATEGORIA
 
-## 5️⃣ Durante e no fim da aula: commit e push
+<img width="551" height="228" alt="image" src="https://github.com/user-attachments/assets/d7a7d9f3-3858-4984-a156-dcfa947441e1" />
+
+
+## 2️⃣ Durante e no fim da aula: commit e push
 
 ```powershell
 git add .
@@ -76,7 +79,7 @@ Ou pelo VS Code: **Source Control** (ícone da forquilha) → escreva a mensagem
 Depois, atualize a página do seu fork no site e confira se o commit apareceu.
 
 # SEMPRE
-## 6️⃣ Antes de ir embora: logout
+## 1️⃣ Antes de ir embora: logout
 
 Máquina compartilhada! Siga a seção **"4. Indo embora: logout"** do `Guia-git-github.md`: saia da conta no VS Code, apague nome e e-mail do Git, remova a credencial do Windows e saia do GitHub no navegador.
 VEJA: `https://github.com/POO-40h-tec-web-mobile-EFG/loja-turma/blob/main/_Orientacoes_e_apoio/Guia-git-github.md`
