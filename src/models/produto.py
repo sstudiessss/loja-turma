@@ -9,14 +9,14 @@ class Produto:
         # Atributos PRIVADOS (dois sublinhados): só a própria classe mexe neles
         self.__nome = nome
         self.__preco = 0.0
-        self.__categoria = categoria          # o produto "conhece" a sua categoria
+        self.__categoria = categoria          
 
-        self.alterar_preco(preco)             # RN1: preço maior que zero
-        if estoque < 0:                       # RN2: estoque não pode ser negativo
+        self.alterar_preco(preco)    # RN1: preço maior que zero
+        if estoque < 0:                    # RN2: estoque não pode ser negativo
             raise ValueError("O estoque não pode ser negativo.")
         self.__estoque = estoque
 
-    # ---------- propriedades (permitem LER, mas não alterar direto) ----------
+    # metodos construtores propriedades (permitem LER, mas não alterar direto)
     @property
     def nome(self):
         return self.__nome

@@ -1,26 +1,21 @@
-"""Classe Categoria (Aula 3)."""
-
-
 class Categoria:
-    """Agrupa produtos parecidos. Ex.: "Eletrônicos", "Livros"."""
 
+    #definindo atributos
     def __init__(self, nome):
-        # Construtor: é chamado automaticamente quando fazemos Categoria("Livros")
-        self.__nome = ""          # atributo PRIVADO (dois sublinhados)
-        self.renomear(nome)       # reaproveita a validação do método
-
-    @property
-    def nome(self):
-        """Permite LER o nome (categoria.nome), mas não alterar diretamente."""
-        return self.__nome
-
-    def renomear(self, nome):
-        """Única forma de alterar o nome: com validação (encapsulamento)."""
-        nome = nome.strip()
-        if nome == "":
-            raise ValueError("O nome da categoria não pode ser vazio.")
         self.__nome = nome
 
-    def __str__(self):
-        # __str__ define o que aparece quando fazemos print(categoria)
+    #definido propriedade e método para atributo nome
+    @property
+    def nome(self):
         return self.__nome
+        
+    #definindo método para renomear
+    def renomear(self, nome):
+        nome = nome.strip()
+        #icluindo regra de negócio
+        if nome == "":
+            raise ValueError("Nome não pode ser vazio")
+
+    def __str__(self):
+        return f"{self.__nome}"
+        
